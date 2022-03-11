@@ -1042,4 +1042,34 @@ footer p a span {
   .navbar.navbar-shrink .navbar-nav {
     background-color: var(--main-color);
   }
+
+}
+.pidda_heading_div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 576px){
+  .websie_logo{
+    width: 200px !important;
+    
+  }
+  .circle{
+    top:240px !important;
+  }
+  .my_image{
+    top:0px !important;
+    width: 250px !important;
+  }
+  .section-title{
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-bottom: 0;
+  }
+}
+.my_image{
+  width: 25rem; 
+  margin-top: 3rem;
 }
